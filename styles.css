@@ -23,12 +23,7 @@ body:after {
         background-color: hsla(180,60%,40%,0.7);
     }
 }
-@media only screen and (min-width: 768px) {
-    body:after {
-        content: "768 to 1024px";
-        background-color: hsla(270,60%,40%,0.7);
-    }
-}
+
 @media only screen and (min-width: 1024px) {
     body:after {
         content: "1024 and up";
@@ -47,8 +42,10 @@ body:after {
         float: left;
         margin-left: 3%;
     }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .span-one-third {
         width: 30%;
     }
+
+
 }
